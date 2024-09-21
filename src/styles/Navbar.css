@@ -1,7 +1,6 @@
 
 nav {
-    a.active {
-        background-color: palevioletred;
-
-    }
+	a.active {
+		color: palevioletred;
+	}
 }
