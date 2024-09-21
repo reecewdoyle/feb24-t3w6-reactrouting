@@ -1,8 +1,8 @@
-import { BrowserRouter, createBrowserRouter, Route, RouterProvider, Routes } from 'react-router-dom';
-import './App.css';
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import '../styles/App.css';
+import HomePage from '../pages/HomePage';
+import AboutPage from '../pages/AboutPage';
+import ContactPage from '../pages/ContactPage';
 
 // Convert an array of objects into a <Routes> component containing <Route> components 
 const someFancyRouter = createBrowserRouter([
